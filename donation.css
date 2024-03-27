@@ -1,0 +1,839 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid brown; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: lightyellow;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 4rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid gray;
+}
+
+ul{
+    display: flex;
+    color: rgb(16, 92, 16);
+}
+
+li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+.donate{
+    /* border: 2px solid black; */
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    margin-right: 1rem;
+    background-color: rgb(16, 92, 16);
+    color: white;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.don{
+    width: 5rem;
+}
+
+.parent1{
+    width: 100%;
+    height: 20rem;
+     /* border: 2px red solid; */
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* margin-top: 3rem; */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.863)50%, rgba(255, 255, 255, 0.863)50%),url(77963389-removebg-preview.png);
+    padding-top: 2rem;
+    
+}
+
+.support{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(16, 92, 16);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.Contribute{
+    margin-top: 1rem;
+}
+
+.now{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(235, 164, 13);
+    border: none;
+    margin-left: 2rem;
+    color: rgb(16, 92, 16);
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.spam{
+    width: 6rem;
+    height: 4rem;
+    border: 4.5px solid rgb(235, 164, 13);
+    border-radius: 100%;
+    padding: 0.7rem;
+    
+}
+
+.noww{
+    width: 6rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 3px solid rgb(16, 92, 16);
+    margin-left: 2rem;
+    color:rgb(16, 92, 16);
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+.parent2{
+    width: 100%;
+    height: 40rem;
+    /* border: red 2px solid; */
+
+}
+
+.box{
+    width: 100%;
+    height: 30rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxx{
+    width: 100%;
+    height: 10rem;
+    /* border: 2px solid black; */
+    background-color: rgb(16, 92, 16);
+}
+
+.box1{
+    width: 60%;
+    height: 100%;
+    border: 5px solid rgb(16, 92, 16);
+    overflow: hidden;
+    /* border-radius: 1rem; */
+    border-top-left-radius: 1rem;
+}
+
+.box11{
+    width: 36%;
+    height: 100%;
+    border: 5px solid rgb(16, 92, 16);
+    overflow: hidden;
+    /* border-radius: 1rem; */
+    border-top-right-radius: 1rem;
+}
+
+.over{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(16, 92, 16);
+    border: 3px solid rgb(235, 164, 13);
+    color: rgb(235, 164, 13);
+    border-radius: 50rem;
+    font-weight: 700;
+    margin-left: 45%;
+    margin-top: 2.5rem;
+}
+
+.view{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+}
+
+.hub{
+    color: rgb(235, 164, 13);
+}
+
+.parent3{
+    width: 100%;
+    height: 25rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.box3{
+    width: 47%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.box33{
+    width: 47%;
+    height: 80%;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+
+.box333{
+    width: 47%;
+    height: 80%;
+    /* border: 2px solid black; */
+    margin-top: 4rem;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.box3i{
+    width: 47%;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: 4rem;
+    color: rgb(16, 92, 16);
+    padding-left: 2px;
+
+}
+
+.learn{
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(19, 92, 16);
+    border: none;
+    border-radius: 4px;
+    margin-top: 2.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+    
+}
+
+.mosque1{
+    height: 100%;
+    width: 15rem;
+    margin-right: 10rem;
+}
+
+.mosque2{
+    height: 100%;
+    width: 20rem;
+    margin-right: 10rem;
+}
+
+
+
+.parent4{
+    width: 100%;
+    height: 25rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+.box4i{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: 1rem;
+    color: rgb(16, 92, 16);
+    /* padding-left: 2px; */
+    margin-left: 1rem;
+
+}
+
+.learn{
+    width: 7rem;
+    height: 2rem;
+    /* background-color: rgb(19, 92, 16); */
+    border: none;
+    border-radius: 4px;
+    margin-top: 2.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+}
+
+
+.box4{
+    width: 47%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.box44{
+    height: 100%;
+    width: 48%;
+    /* border: 3px solid rgb(19, 92, 16); */
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pic4{
+    height: 100%;
+    width: 100%;
+}
+
+.box444{
+    width: 100%;
+    height: 48%;
+    /* border: 3px solid rgb(19, 92, 16); */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pic44{
+    height: 100%;
+    width: 100%;
+}
+
+
+.box44i{
+    height: 100%;
+    width: 48%;
+    /* border: 3px solid rgb(19, 92, 16); */
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.parent5{
+    width: 100%;
+    height: 40rem;
+    /* border: 2px solid black; */
+}
+
+.program{
+    width: 100%;
+    height: 5rem;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 3rem;
+    color: rgb(19, 92, 16);
+}
+
+.pro{
+    width: 3rem;
+    height: 1.5rem;
+    border: 3.5px solid rgb(235, 164, 13);
+    border-radius: 100%;
+    padding: 0.6rem;
+    
+}
+
+.menu{
+    width: 100%;
+    height: 30rem;
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mini-menu{
+    width: 48%;
+    height: 45%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini{
+    width: 49%;
+    height: 100%;
+    /* border: 2px solid red; */
+    align-content: center;
+    color: rgb(19, 92, 16);
+}
+
+.flat{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+.parent6{
+    width: 100%;
+    height: 42rem;
+    /* border: 2px solid black; */
+    background-color: rgb(233, 233, 233);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.space{
+    margin: 1rem;
+}
+
+.mini6{
+    width: 100%;
+    height: 30rem;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.mini66{
+    width: 19rem;
+    height: 98%;
+    /* border: 2px solid red; */
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    display: flex;
+    color: rgb(16, 92, 16);
+}
+
+.photo{
+    width: 19rem;
+    height: 18rem;
+    border-radius: 10px;
+}
+
+.love{
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background-color: rgb(19, 92, 16);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.parent7{
+    width: 100%;
+    height: 20rem;
+    /* border: 2px solid black; */
+    background-color: rgb(16, 92, 16);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top, rgba(29, 53, 9, 0.85)50%, rgba(29, 53, 9, 0.85)50%),url(./muslim-family-small.jpg);
+    background-position: center;
+}
+
+.nowww{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(235, 164, 13);
+    border: none;
+    margin-left: 2rem;
+    color: rgb(16, 92, 16);
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-top: 3rem;
+}
+
+.parent7{
+    width: 100%;
+    height: 20rem;
+    /* border: 2px solid black; */
+    background-color: rgb(16, 92, 16);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top, rgba(29, 53, 9, 0.85)80%, rgba(29, 53, 9, 0.85)80%),url(./6d166579a1ef37a38ed93c1ab1454aec.jpg);
+    background-position: center;
+}
+
+.parent8{
+    width: 100%;
+    height: 35rem;
+    /* border: 2px solid blue; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box8{
+    width: 85%;
+    height: 20rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.box88{
+    width: 16rem;
+    height: 100%;
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(16, 92, 16);
+    background-color: lightblue;
+    border-radius: 10px;
+    padding-top: 2rem;
+}
+
+.signup{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.sign1{
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(16, 92, 16);
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-top: 3rem;
+}
+
+.parent9{
+    width: 100%;
+    height: 23rem;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(16, 92, 16);
+
+}
+
+.box9{
+    width: 90%;
+    height: 14rem;
+    /* border: 2px solid black; */
+    color: rgb(16, 92, 16);
+    display: flex;
+    margin-top: 4rem;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box99{
+    width: 15rem;
+    height: 70%;
+    /* border: 2px solid black; */
+    padding-right: 1rem;
+}
+
+.social{
+    width: 40%;
+    height: 3rem;
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.png{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.nxt{
+    height: 70%;
+    width:45%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}    
+
+.nxtt{
+    height: 100%;
+    width: 8rem;
+    /* border: 2px solid black; */
+    padding-top: 2rem;
+}
+
+.last{
+    width: 17rem;
+    height: 70%;
+    /* border: 2px solid gold; */
+    margin-left: 1.7rem;
+    padding-top: 4rem;
+}
+
+.las{
+    background-color: rgb(16, 92, 16);
+    color: white;
+    font-weight: 600;
+    height: 1.5rem;
+    width: 4rem;
+    border-radius: 5px;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+
+    .parent2{
+        width: 100%;
+        /* border: 2px solid black; */
+        height: 32rem;
+    }
+
+    .box{
+        /* border: 2px solid black; */
+        height: 20rem;
+    }
+
+    .boxer{
+        width: 23rem;
+        height: 20rem;
+    }
+
+    .boxx{
+        /* border: 3px solid red; */
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    .over{
+        margin: 0;
+    }
+
+    .parent3{
+        /* border: 2px solid black; */
+        height: 40rem;
+        flex-direction: column;
+    }
+
+    .box3{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 30rem;
+    }
+
+    .box3i{
+        /* border: 2px solid blue; */
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .box33{
+        /* border: 2px solid blue; */
+        
+    }
+
+    .mosque1{
+        width: 100%;
+    }
+
+    .parent4{
+        /* border: 2px solid blue; */
+        height: 53rem;
+        flex-direction: column;
+    }
+
+    .box4i{
+        /* border: 2px solid black; */
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .box4{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .parent5{
+        /* border: 2px solid blue; */
+        height:35rem;
+    }
+
+    .menu{
+        /* border: 2px solid black; */
+        height: 20rem;
+    }
+
+    .mini{
+        /* border: 2px solid blue; */
+        font-size: 0.6rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    .parent6{
+        /* border: 2px solid blue; */
+        padding: 0;
+        height: 34rem;
+    }
+
+    .mini6{
+        /* border: 2px solid black; */
+    }
+
+    .mini66{
+        /* border: 2px solid blue; */
+        /* justify-content: space-between; */
+        margin: 0;
+        height: 25rem;
+        /* font-size: 0.8rem; */
+        padding: 0.4rem;
+    }
+
+    .small66{
+        /* border: 2px solid red; */
+        height: ;
+    }
+
+    .photo{
+        width: 100%;
+        height: 12rem;
+    }
+
+    .love{
+        margin: 0.5rem;
+    }
+
+    .space{
+        font-size: 1.1rem;
+        margin: 1rem;
+
+    }
+
+
+    .parent8{
+        /* border: 2px solid blue; */
+        height: 66rem;
+        padding-bottom: 2rem;
+    }
+
+    .box8{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 70rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .box88{
+        /* border: 2px black solid; */
+        padding: 0;
+        width: 30rem;
+        height: 15rem
+
+       
+    }
+
+    .signup{
+        margin-top: 0.5rem;
+    }
+
+    .sign1{
+        margin: ;
+    }
+
+    .parent9{
+        /* border: 2px solid red; */
+        height: 34rem;
+    }
+
+    .box9{
+        /* border: 2px solid black; */
+        height: 25rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .box99{
+        /* border: 2px solid black; */
+        width: 90%;
+        height: 10rem;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        margin-top: 1rem;
+    }
+
+    .nxt{
+        /* border: 2px solid blue; */
+        width: 90%;
+        height: 10rem;
+        
+    }
+
+    .social{
+        /* border: 2px solid black; */
+        width: 6rem;
+    }
+
+    .last{
+        /* border: 2px solid yellow; */
+        height: 6rem;
+        padding-top: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
